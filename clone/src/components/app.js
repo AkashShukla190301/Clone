@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css'
-
+import SideBar from './SideBar'
 
 class App extends React.Component{
     render(){
@@ -19,7 +19,7 @@ class App extends React.Component{
             </div>
 
             <div className="sidebar">
-                <h1>sidebar</h1>
+                <SideBar></SideBar>
             </div>
         </div>
        )

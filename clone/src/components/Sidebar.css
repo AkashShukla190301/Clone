@@ -1,0 +1,34 @@
+
+.sidebarYoutube{
+    padding: 1rem;
+   
+}
+
+.youtubeBrand{
+    display: grid;
+    grid-template-columns: 1rem 1fr 3rem;
+    grid-template-rows: auto;
+    
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#hamburger{
+    grid-column: 1/2;
+}
+
+#youtubetitle{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1vw;
+    font-weight: 800;
+    justify-self: end;
+}
+
+
+#youtubeicon {
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
